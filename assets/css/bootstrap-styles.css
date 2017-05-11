@@ -1,0 +1,141 @@
+
+html {
+position: relative;
+min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.headshot {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 25px 0px;
+}
+
+.sidebar {
+  margin-top: 34px;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+
+.logo-margin {
+  margin: 0px 10px 25px 10px;
+}
+
+.logo {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.logo:hover {
+  opacity: .6
+
+}
+
+.btn-group {
+  padding-top: 20px;
+}
+
+.port-overlay {
+  float:left;
+  width:100%;
+  height:60px;
+  background-color: #3498db;
+  color: #ffffff;
+  margin-top: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.port-image {
+  width: 100%;
+  height: auto;
+}
+
+.port-panel {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media(max-width:767px){}
+@media(min-width:768px){
+    .photo {
+    margin: 0px 25px 0px 0px;
+    width: 275px;
+
+    float: left;
+  }
+
+}
+@media(min-width:992px){
+    .photo {
+    margin: 0px 25px 0px 0px;
+    width: 300px;
+
+    float: left;
+  }
+
+
+}
+@media(min-width:1200px){
+    .photo {
+    margin: 0px 25px 0px 0px;
+    width: 350px;
+
+    float: left;
+  }
+
+}
